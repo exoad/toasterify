@@ -26,7 +26,7 @@ class _OperationsCounterBlockState extends State<OperationsCounterBlock> {
   @override
   Widget build(BuildContext context) {
     return Block(
-        backgroundColor: const Color.fromARGB(255, 182, 228, 98),
+        backgroundColor: op.toasterifyController.accent(),
         child: Column(children: <Widget>[
           const Text("Operations",
               style: TextStyle(

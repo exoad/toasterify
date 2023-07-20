@@ -36,10 +36,7 @@ class OperatorProvider extends ChangeNotifier {
   }
 
   Stream<BigInt> listenForOps() async* {
-    while (true) {
-      Future.delayed(const Duration(milliseconds: 600));
-      yield _totalOps1 + _totalOps2;
-    }
+    yield BigInt.zero;
   }
 
   @pragma('vm:entry-point')

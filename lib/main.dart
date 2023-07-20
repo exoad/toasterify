@@ -49,12 +49,7 @@ class _MainAppState extends State<MainApp> {
                 color: Colors.black, size: 32),
           ),
           floatingActionButtonLocation:
-              FloatingActionButtonLocation.centerDocked,
-          bottomNavigationBar: BottomAppBar(
-            color: op.toasterifyController.accent(),
-            shape: const CircularNotchedRectangle(),
-            notchMargin: 10,
-          ),
+              FloatingActionButtonLocation.centerFloat,
           body: const SingleChildScrollView(
             child: Column(
               children: <Widget>[
