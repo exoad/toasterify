@@ -11,7 +11,7 @@
 Need a hand warmer? Toasterify warms up your phone!
 </strong>
 
-<img src="./repo/screenshot.png" height=600 />
+<img src="./repo/screenshot.png" height=600 align="right"/>
 
 </div>
 
