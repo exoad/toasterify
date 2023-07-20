@@ -15,5 +15,5 @@ Need a hand warmer? Toasterify warms up your phone!
 
 </div>
 
-> **Note** This was just a simple stupid project I made and doesn't really serve a purpose except to warm up your phone.
+> **Note**: This was just a simple stupid project I made and doesn't really serve a purpose except to warm up your phone.
 
