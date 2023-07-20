@@ -1,0 +1,27 @@
+name: toasterify
+description: Makes your phone become warm
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.0.5 <4.0.0"
+
+dependencies:
+  battery_info: ^1.1.1
+  big_decimal: ^0.5.0
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.7
+  url_launcher: ^6.1.12
+  xrandom: ^0.7.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/processor.svg
+    - assets/snowflake.svg
